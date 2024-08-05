@@ -4,7 +4,7 @@
  */
 package Comment;
 
-import Users.User;
+import Users.user;
 
 /**
  *
@@ -12,14 +12,14 @@ import Users.User;
  */
 public class Comments {
     private int id;
-    private User user;
+    private user user;
     private String comment;
 
     public int getId() {
         return id;
     }
 
-    public User getUser() {
+    public user getUser() {
         return user;
     }
 
@@ -32,7 +32,7 @@ public class Comments {
     }
     
 
-    public Comments(int id, User user, String comment) {
+    public Comments(int id, user user, String comment) {
         this.id = id;
         this.user = user;
         this.comment = comment;

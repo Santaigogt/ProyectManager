@@ -5,7 +5,8 @@
 package Tasks;
 
 import Comment.Comments;
-import Users.User;
+import Users.user;
+import Users.user;
 import java.util.ArrayList;
 
 /**
@@ -16,7 +17,7 @@ public class Task {
     private int id;
     private String description;
     private boolean complete;
-    private User user;
+    private user user;
     private ArrayList<Comments> comments;
 
     public int getId() {
@@ -31,7 +32,7 @@ public class Task {
         return complete;
     }
 
-    public User getUser() {
+    public user getUser() {
         return user;
     }
 
@@ -45,7 +46,7 @@ public class Task {
         return comments;
     }
 
-    public Task(int id, String description, boolean complete, User user, ArrayList<Comments> comments) {
+    public Task(int id, String description, boolean complete, user user, ArrayList<Comments> comments) {
         this.id = id;
         this.description = "Pendiente";
         this.complete = complete;
